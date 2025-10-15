@@ -1,5 +1,11 @@
-# git_test
+# CI/CD pipeline project.
 ---
-A repositiory to try things out.
-- learn new things
-- try new things out
+- Create a static website locally.
+- Push the website code to a 'github' repository.
+- Create an S3 bucket on AWS and enable static website hosting.
+- Publish the website on the AWS S3 bucket.
+- Create an AWS IAM 'user' with read and write permissions for the S3 bucket (use an AWS 'Policy').
+- For the 'user' also generate an Access key and a Secret Access key.
+- Configure Github Actions on the repository webpage adding a 'YAML' file to syncronise the repository with the AWS S3 bucket. 
+- Add the 'user' keys as 'github' repository secrets so they can be accessed by Github Actions.
+- Test the set up. Make changes to the local files, push the changes to Github. Check to see that the changes have percolated up to the S3 static website.
