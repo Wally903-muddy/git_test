@@ -1,11 +1,16 @@
 /* styles.css */
 
-div {
-  color: green;
-}
+/* div { */
+/*   color: green; */
+/* } */
+/**/
+/* .alert-text { */
+/*   color: red; */
+/* } */
 
-.alert-text {
-  color: red;
-}
+* {
+ color: white;
+ background-color: black;
+ }
 
 
