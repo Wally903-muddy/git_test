@@ -1,4 +1,4 @@
-# S3 static website project.
+# An S3 static website project.
 ---
 - Create a static website locally.
 - Push the website code to a *Github* repository.
