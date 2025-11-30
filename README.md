@@ -1,11 +1,12 @@
 # An S3 static website project.
 ---
 - Create a static website locally.
-- Push the website code to a *Github* repository.
+- Push the website code to a *GitHub* repository.
 - Create an S3 bucket on AWS and enable static website hosting.
 - Publish the website on the AWS S3 bucket.
-- Create an AWS IAM *user* with read and write permissions for the S3 bucket (use an AWS *Policy*).
+- Create an AWS IAM *user* with read and write permissions for the S3 bucket (using an AWS *Policy*).
 - For the IAM *user* also generate an Access key and a Secret Access key.
-- Configure *Github Actions* on the repository webpage adding a *YAML* file to syncronise the repository with the AWS S3 bucket. 
-- Add the *user* keys as *Github* repository secrets so they can be accessed by *Github Actions*.
-- Test the set up. Make changes to the local files, push the changes to Github. Check to see that the changes have percolated up to the S3 static website.
+- Configure *GitHub Actions* on the repository webpage adding a *YAML* file to syncronise the repository with the AWS S3 bucket. 
+- Add the *user* keys as *GitHub* repository secrets so they can be accessed by *GitHub Actions*.
+- Test the set up. Make changes to the local files and push the changes to GitHub. 
+- Check to that the changes have percolated up to the S3 static website.
