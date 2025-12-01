@@ -9,4 +9,4 @@
 - Configure *GitHub Actions* on the repository webpage adding a *YAML* file to syncronise the repository with the AWS S3 bucket. 
 - Add the *user* keys as *GitHub* repository secrets so they can be accessed by *GitHub Actions*.
 - Test the set up. Make changes to the local files and push the changes to GitHub. 
-- Check to that the changes have percolated up to the S3 static website.
+- Open http://the-bucket-at-the-end-of-the-rainbow.s3-website.eu-north-1.amazonaws.com/ to see if the changes have percolated up.
