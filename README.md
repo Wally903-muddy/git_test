@@ -1,5 +1,9 @@
 # An S3 static website project.
 ---
+
+This was put together to demonstrate how easy it is to build a CI/CD pipeline
+combining GitHub Actions and various AWS services.
+
 - Create a static website locally.
 - Push the website code to a *GitHub* repository.
 - Create an S3 bucket on AWS and enable static website hosting.
